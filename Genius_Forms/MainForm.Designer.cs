@@ -46,7 +46,7 @@
             // сurrentQuestionNumberLabel
             // 
             this.сurrentQuestionNumberLabel.AutoSize = true;
-            this.сurrentQuestionNumberLabel.Location = new System.Drawing.Point(12, 66);
+            this.сurrentQuestionNumberLabel.Location = new System.Drawing.Point(12, 117);
             this.сurrentQuestionNumberLabel.Name = "сurrentQuestionNumberLabel";
             this.сurrentQuestionNumberLabel.Size = new System.Drawing.Size(61, 13);
             this.сurrentQuestionNumberLabel.TabIndex = 0;
@@ -54,7 +54,7 @@
             // 
             // сurrentQuestionLabel
             // 
-            this.сurrentQuestionLabel.Location = new System.Drawing.Point(12, 90);
+            this.сurrentQuestionLabel.Location = new System.Drawing.Point(12, 141);
             this.сurrentQuestionLabel.Name = "сurrentQuestionLabel";
             this.сurrentQuestionLabel.Size = new System.Drawing.Size(454, 31);
             this.сurrentQuestionLabel.TabIndex = 1;
@@ -62,14 +62,14 @@
             // 
             // userInputTextBox
             // 
-            this.userInputTextBox.Location = new System.Drawing.Point(15, 174);
+            this.userInputTextBox.Location = new System.Drawing.Point(15, 225);
             this.userInputTextBox.Name = "userInputTextBox";
             this.userInputTextBox.Size = new System.Drawing.Size(58, 20);
             this.userInputTextBox.TabIndex = 3;
             // 
             // nextQuestionButton
             // 
-            this.nextQuestionButton.Location = new System.Drawing.Point(361, 172);
+            this.nextQuestionButton.Location = new System.Drawing.Point(361, 223);
             this.nextQuestionButton.Name = "nextQuestionButton";
             this.nextQuestionButton.Size = new System.Drawing.Size(75, 23);
             this.nextQuestionButton.TabIndex = 4;
@@ -79,10 +79,10 @@
             // 
             // welcomeMessageLabel
             // 
-            this.welcomeMessageLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.welcomeMessageLabel.Location = new System.Drawing.Point(12, 36);
+            this.welcomeMessageLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.welcomeMessageLabel.Location = new System.Drawing.Point(12, 42);
             this.welcomeMessageLabel.Name = "welcomeMessageLabel";
-            this.welcomeMessageLabel.Size = new System.Drawing.Size(454, 30);
+            this.welcomeMessageLabel.Size = new System.Drawing.Size(454, 60);
             this.welcomeMessageLabel.TabIndex = 5;
             this.welcomeMessageLabel.Text = "Приветствие пользователя";
             this.welcomeMessageLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -102,28 +102,28 @@
             // 
             this.restartToolStripMenuItem.Name = "restartToolStripMenuItem";
             this.restartToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
-            this.restartToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.restartToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
             this.restartToolStripMenuItem.Text = "Новая игра";
             this.restartToolStripMenuItem.Click += new System.EventHandler(this.restartToolStripMenuItem_Click);
             // 
             // историяToolStripMenuItem
             // 
             this.историяToolStripMenuItem.Name = "историяToolStripMenuItem";
-            this.историяToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.историяToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
             this.историяToolStripMenuItem.Text = "История";
             this.историяToolStripMenuItem.Click += new System.EventHandler(this.historyToolStripMenuItem_Click);
             // 
             // добавитьВопросыToolStripMenuItem
             // 
             this.добавитьВопросыToolStripMenuItem.Name = "добавитьВопросыToolStripMenuItem";
-            this.добавитьВопросыToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.добавитьВопросыToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
             this.добавитьВопросыToolStripMenuItem.Text = "Добавить вопросы";
             this.добавитьВопросыToolStripMenuItem.Click += new System.EventHandler(this.добавитьВопросыToolStripMenuItem_Click_1);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
             this.exitToolStripMenuItem.Text = "Выход";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -140,7 +140,7 @@
             // answerLabel
             // 
             this.answerLabel.AutoSize = true;
-            this.answerLabel.Location = new System.Drawing.Point(12, 147);
+            this.answerLabel.Location = new System.Drawing.Point(12, 198);
             this.answerLabel.Name = "answerLabel";
             this.answerLabel.Size = new System.Drawing.Size(40, 13);
             this.answerLabel.TabIndex = 7;
@@ -151,7 +151,7 @@
             this.AcceptButton = this.nextQuestionButton;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(478, 235);
+            this.ClientSize = new System.Drawing.Size(478, 277);
             this.Controls.Add(this.answerLabel);
             this.Controls.Add(this.welcomeMessageLabel);
             this.Controls.Add(this.nextQuestionButton);

@@ -73,7 +73,7 @@
             this.Controls.Add(this.userNameTitleLabel);
             this.Name = "UserNameInputForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "UserNameInput";
+            this.Text = "Привет, новый игрок!";
             this.Shown += new System.EventHandler(this.UserNameInputForm_Shown);
             this.ResumeLayout(false);
             this.PerformLayout();

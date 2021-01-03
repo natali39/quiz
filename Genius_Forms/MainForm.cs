@@ -37,13 +37,13 @@ namespace Genius_Forms
             game.OnEndGame += OnEndGame;
             ShowCurrentQuestion();
             nextQuestionButton.Enabled = true;
-            welcomeMessageLabel.Text = $"Привет, { user.Name}!";
+            welcomeMessageLabel.Text = $"Привет, { user.Name}!\nОтвечай на вопросы викторины и узнай свой диагноз!";
         }
 
         private void OnEndGame(object sender, EventArgs e)
         {
             var diagnose = game.GetUserDiagnose();
-            MessageBox.Show(diagnose);
+            MessageBox.Show(diagnose, "Результаты викторины:");
             nextQuestionButton.Enabled = false;
             welcomeMessageLabel.Text = $"{user.Name}, эта игра окончена! Можешь начать заново!";
         }
