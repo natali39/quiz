@@ -7,7 +7,7 @@ namespace Genius_Console
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Введите своё имя:");
+            Console.WriteLine("Начнем игру! Введите своё имя:");
             string userName = (Console.ReadLine());
             var user = new User(userName);
             var game = new Game(user);
